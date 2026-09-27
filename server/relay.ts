@@ -1,7 +1,7 @@
 import { randomInt } from "node:crypto";
 import type { Server } from "node:http";
 import { WebSocket, WebSocketServer } from "ws";
-import { clientMessage } from "../src/contracts";
+import { clientMessage } from "../src/contracts.js";
 type Session = {
   experiment: "pendulum" | "sound" | "bottle";
   code: string;

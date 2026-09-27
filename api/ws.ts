@@ -1,6 +1,6 @@
 import express from "express";
 import { createServer } from "node:http";
-import { attachRelay } from "../server/relay";
+import { attachRelay } from "../server/relay.js";
 
 // Vercel routes this Node function at /api/ws. Keep relay state in this
 // function instance; no external database or paid service is required.
