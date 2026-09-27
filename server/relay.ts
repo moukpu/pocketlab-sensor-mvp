@@ -13,9 +13,9 @@ type Session = {
   capabilities?: { motion: boolean; microphone: boolean };
   touched: number;
 };
-export function attachRelay(server: Server) {
+export function attachRelay(server: Server, path = "/ws") {
   const sessions = new Map<string, Session>();
-  const wss = new WebSocketServer({ server, path: "/ws", maxPayload: 16384 });
+  const wss = new WebSocketServer({ server, path, maxPayload: 16384 });
   const send = (ws: WebSocket | undefined, data: unknown) => {
     if (ws?.readyState === WebSocket.OPEN) {
       if (ws.bufferedAmount > 2_000_000) {
