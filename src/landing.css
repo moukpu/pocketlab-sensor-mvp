@@ -1,8 +1,5 @@
 /* Home-only styles: the shared laboratory header keeps its existing styles. */
 .home-page { color: #10214b; background: #f3f6fb; }
-@media (min-width: 1051px) {
-  .home-page .topbar nav.main-navigation { flex: 0 1 auto; margin-inline: auto; }
-}
 .home-page *, .home-page *::before, .home-page *::after { box-sizing: border-box; }
 .home-page .home-main { max-width: 1440px; padding: 0 clamp(24px, 4vw, 64px); margin: 0 auto; }
 .home-page .home-main :where(section) { padding: 0; margin: 0; border: 0; border-radius: 0; background: none; box-shadow: none; }

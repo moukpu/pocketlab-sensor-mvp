@@ -1485,6 +1485,9 @@ body { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
   overscroll-behavior-x: contain;
 }
 .topbar nav.main-navigation::-webkit-scrollbar { display: none; }
+@media (min-width: 1051px) {
+  .topbar nav.main-navigation { flex: 0 1 auto; margin-inline: auto; }
+}
 .topbar nav.main-navigation a {
   flex: 0 0 auto;
   min-height: 100%;
