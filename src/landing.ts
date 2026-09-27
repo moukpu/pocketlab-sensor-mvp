@@ -48,7 +48,6 @@ export function landing(root: HTMLElement) {
           <a class="home-question" href="/sound"><svg class="home-question-sketch" viewBox="0 0 110 95" aria-hidden="true"><path class="sketch-faint" d="M8 29h93M8 69h93"/><path d="M8 29q12-28 23 0t23 0 23 0 23 0"/><path class="sketch-accent" d="M8 69q6-27 12 0t12 0 12 0 12 0 12 0 12 0 12 0"/></svg><div><h3>Спеть на октаву <span>выше?</span></h3><p>Что изменится на графике твоего голоса?</p></div><span class="home-question-arrow" aria-hidden="true">↗</span></a>
           <a class="home-question" href="/bottle"><svg class="home-question-sketch" viewBox="0 0 110 95" aria-hidden="true"><path d="M22 8h12v23l11 13v39H11V44l11-13zm52 0h12v23l11 13v39H63V44l11-13z"/><path class="sketch-water" d="M12 69h32v13H12zm52-17h32v30H64z"/><path class="sketch-accent" d="M12 69q8-4 16 0t16 0M64 52q8-4 16 0t16 0"/></svg><div><h3>Добавить немного <span>воды?</span></h3><p>Та же бутылка. А будет ли прежним звук?</p></div><span class="home-question-arrow" aria-hidden="true">↗</span></a>
         </div>
-        <div class="home-notebook-foot"><span>Выбери вопрос. Собери опыт. Проверь догадку.</span><span>Нужны телефон и компьютер — всё в браузере.</span></div>
       </section>
       <footer class="home-footer"><a href="#top">PocketLab <span>STEM</span></a></footer>
     </main>
