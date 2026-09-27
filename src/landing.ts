@@ -50,7 +50,7 @@ export function landing(root: HTMLElement) {
         </div>
         <div class="home-notebook-foot"><span>Выбери вопрос. Собери опыт. Проверь догадку.</span><span>Нужны телефон и компьютер — всё в браузере.</span></div>
       </section>
-      <footer class="home-footer"><a href="#top">PocketLab <span>STEM</span></a><p>Маленькая лаборатория. Настоящая физика.</p><a href="#experiments">К экспериментам ↑</a></footer>
+      <footer class="home-footer"><a href="#top">PocketLab <span>STEM</span></a></footer>
     </main>
   </div>`;
 
