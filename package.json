@@ -1,0 +1,35 @@
+{
+  "name": "pocketlab-sensor-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server/index.ts --production",
+    "test": "tsx --test tests/*.test.ts",
+    "test:browser": "tsx tests/browser.ts",
+    "check": "tsc --noEmit",
+    "test:sound-browser": "tsx tests/sound-browser.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4",
+    "three": "^0.180.0",
+    "ws": "^8.18.3",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/three": "^0.180.0",
+    "@types/ws": "^8.18.1",
+    "prettier": "^3.9.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
+  }
+}
